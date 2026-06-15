@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.Screen {
+  /* background-color: blue; */
+  
+  min-height: 100vh;
+  max-width: 50vw;
+  
+  position: relative;
+  left: 25vw;
+  
+  display: flex;
+  flex-direction: column;
+}

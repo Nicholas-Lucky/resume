@@ -38,7 +38,7 @@ function App() {
       <h2>Projects</h2>
 
       <h3>Personal Portfolio Website</h3>
-      <a href="https://github.com/Nicholas-Lucky/Nicholas-Lucky">github.com/Nicholas-Lucky/Nicholas-Lucky</a>
+      <a href="https://github.com/Nicholas-Lucky/Nicholas-Lucky" className="project-link">github.com/Nicholas-Lucky/Nicholas-Lucky</a>
       <p>Designed and developed a personal portfolio website to showcase my projects, technical skills, educational background, and interests.</p>
       <p>Through this project, I learned:</p>
       <ul>
@@ -50,13 +50,13 @@ function App() {
       <p>This project serves as the foundation of my professional online presence and will continue to evolve as I gain more experience.</p>
 
       <h3>IMC Prosperity 4 Trading Competition (2025)</h3>
-      <a href="https://github.com/Nicholas-Lucky/IMC-Prosperity-4-Submission">github.com/Nicholas-Lucky/IMC-Prosperity-4-Submission</a>
+      <a href="https://github.com/Nicholas-Lucky/IMC-Prosperity-4-Submission" className="project-link">github.com/Nicholas-Lucky/IMC-Prosperity-4-Submission</a>
       <p><b>Ranked top 0.79% in Manual Trading, and top 5.74% in Algorithmic Trading.</b></p>
       <p>Our team's code repository for the IMC Prosperity 4 trading competition. Includes code for our main training algorithm and manual trading logic for each round.</p>
       <p>Participating in this competition strengthened my understanding of object-oriented programming, data ingestion, transformation, analysis, and visualization, game theory, cross-functional communication, and documentation.</p>    
 
       <h3>Hallow Eve</h3>
-      <a href="https://github.com/NoInfoOrg/Hallow-Eve ">github.com/NoInfoOrg/Hallow-Eve</a>
+      <a href="https://github.com/NoInfoOrg/Hallow-Eve" className="project-link">github.com/NoInfoOrg/Hallow-Eve</a>
       <p>A 2D local co-op puzzle game about a spirit sister and a human brother trying to traversing through and escape a haunted mansion. Developed in collaboration with a team for a senior project.</p>
       <p>Features include:</p>
       <ul>
@@ -68,7 +68,7 @@ function App() {
       <p>Collaboratively developing this project strengthened my skills in game development, game and sprint planning, Godot, documentation, presentations, and meeting and communication facilitation.</p>
 
       <h3>Math Game Website</h3>
-      <a href="https://github.com/Masiesworld/math-game-website">github.com/Masiesworld/math-game-website</a>
+      <a href="https://github.com/Masiesworld/math-game-website" className="project-link">github.com/Masiesworld/math-game-website</a>
       <p>A web application that houses a simple math game for users to practice their basic math skills.</p>
       <p>Features include:</p>
       <ul>
@@ -81,13 +81,13 @@ function App() {
       <p>Building this project strengthened my understanding of Agile and Scrum principles, sprint planning and participation, API creation, logic, and usage, debugging, user interface design, code quality, code reviews, and documentation.</p>
 
       <h3>IMC Prosperity 3 Trading Competition (2025)</h3>
-      <a href="https://github.com/Nicholas-Lucky/IMC-Prosperity-3-Submission">github.com/Nicholas-Lucky/IMC-Prosperity-3-Submission</a>
+      <a href="https://github.com/Nicholas-Lucky/IMC-Prosperity-3-Submission" className="project-link">github.com/Nicholas-Lucky/IMC-Prosperity-3-Submission</a>
       <p><b>Ranked top 1% in Manual Trading, and top 23% in Algorithmic Trading.</b></p>
       <p>Our team's code repository for the IMC Prosperity 3 trading competition. Includes code for our main training algorithm and manual trading logic for each round.</p>
       <p>Participating in this competition strengthened my understanding of object-oriented programming, data ingestion, transformation, analysis, and visualization, game theory, cross-functional communication, and documentation.</p>      
 
       <h3>Chrome Bookmark Searcher Extension</h3>
-      <a href="https://github.com/Nicholas-Lucky/Google-Chrome-Bookmark-Searcher-Extension">github.com/Nicholas-Lucky/Google-Chrome-Bookmark-Searcher-Extension</a>
+      <a href="https://github.com/Nicholas-Lucky/Google-Chrome-Bookmark-Searcher-Extension" className="project-link">github.com/Nicholas-Lucky/Google-Chrome-Bookmark-Searcher-Extension</a>
       <p>A Google extension that allows users to search through their bookmarks by title. Works with the chrome API.</p>
       <p>Features include:</p>
       <ul>

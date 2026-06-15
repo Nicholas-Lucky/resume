@@ -107,6 +107,73 @@ function App() {
       </ul>
       <p>Building this project introduced me to VBA, Visual Basic, macros, and macro-related concepts such as ranges, data types, and functions.</p>
 
+      {/* Education Section */}
+      <h2>Education</h2>
+      <h3>University of Florida</h3>
+      <p>Bachelor of Science in Computer Science</p>
+      <p>2023 - 2027</p>
+      <p><i>Founded in 1853, the University of Florida is one of the nation's leading public research universities and is consistently ranked among the top public institutions in the United States. Its Computer Science program is recognized for its rigorous curriculum, innovative research opportunities, and strong preparation for careers in software engineering, artificial intelligence, cybersecurity, and other technology fields.</i></p>
+      <p>Studying Computer Science at the University of Florida provides me with a strong foundation in software development, algorithms, data structures, and emerging technologies. Through rigorous coursework and hands-on projects, I am developing the technical and problem-solving skills necessary to succeed in the rapidly evolving technology industry.</p>
+      <p>My time at UF is helping me grow not only as a programmer but also as a lifelong learner, preparing me to contribute to innovative projects and make a meaningful impact in the field of technology.</p>
+
+      {/* Skills Section */}
+      <h2>Skills</h2>
+
+      <h3>Programming Languages</h3>
+      <ul>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Java</li>
+        <li>C++</li>
+        <li>GDScript</li>
+      </ul>
+
+      <h3>Software Development</h3>
+      <ul>
+        <li>Agile/scrum development</li>
+        <li>Sprint planning and facilitation</li>
+        <li>MongoDB</li>
+        <li>Express.js</li>
+        <li>React.js</li>
+        <li>Node.js</li>
+      </ul>
+
+      <h3>Programming Concepts</h3>
+      <ul>
+        <li>Object-oriented programming</li>
+        <li>Algorithm design and analysis</li>
+        <li>Analytical thinking</li>
+        <li>Problem solving</li>
+        <li>Communication and presentation</li>
+        <li>Documentation</li>
+        <li>Data structures</li>
+      </ul>
+
+      <h3>Tools</h3>
+      <ul>
+        <li>Visual Studio</li>
+        <li>PyCharm</li>
+        <li>IntelliJ</li>
+        <li>Godot</li>
+        <li>Git</li>
+        <li>GitHub</li>
+        <li>Docker</li>
+        <li>SonarQube</li>
+        <li>Command Prompt</li>
+        <li>Git Bash</li>
+      </ul>
+
+      {/* A Little More About Me Section */}
+      <h2>A Little More About Me</h2>
+      <p>Alongside my interests in technology, some of my other interests and hobbies are:</p>
+      <ul>
+        <li>Gaming</li>
+        <li>Drawing</li>
+        <li>Listening to music</li>
+      </ul>
+      <p>I believe that consistent learning, curiosity, and perseverance are the keys to success in technology and life.</p>
       
     </div>
   );

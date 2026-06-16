@@ -5,8 +5,15 @@ function App() {
     <div className="Screen">
       <h1>Nicholas Lucky</h1>
       <h4>Computer Science Student | Developer | AI Enthusiast | Problem Solver</h4>
-
-      <div className="circle"></div>
+      
+      <a href="https://github.com/Nicholas-Lucky">
+        <div>
+          <div className="social-media-button-circle-outer">
+            <div className="social-media-button-circle-inner"/>
+            <img className="social-media-button-logo"/>
+          </div>
+        </div>
+      </a>
 
       <div><hr/></div>
 

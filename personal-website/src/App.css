@@ -1,3 +1,8 @@
+:root {
+  --social-media-button-circle-outer: 2.7vw;
+  --social-media-button-circle-inner: 0.1vw;
+}
+
 .App {
   text-align: center;
 }
@@ -97,9 +102,67 @@
   }
 }
 
-circle {
+.social-media-button-circle-outer {
   position: relative;
-  background-color: #1e88e5;
-  width: 15vw;
-  height: 15vw;
+  background-color: black;
+
+  width: var(--social-media-button-circle-outer);
+  height: var(--social-media-button-circle-outer);
+
+  border-radius: var(--social-media-button-circle-outer);
+
+  transition: 0.25s;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  z-index: 1;
+}
+
+.social-media-button-circle-outer:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.social-media-button-circle-inner {
+  position: relative;
+  /* background-color: white; */
+  background-color: transparent;
+
+  width: var(--social-media-button-circle-inner);
+  height: var(--social-media-button-circle-inner);
+
+  border-radius: var(--social-media-button-circle-outer);
+
+  transition: 0.25s;
+
+  z-index: 2;
+}
+
+.social-media-button-circle-outer:hover .social-media-button-circle-inner {
+  /*
+  1.1 * 2.5 = 2.75 vw
+  offseted 2.75 - 2.5 = 0.25 vw
+
+  inner circle remains anchored to the top left maybe
+  move inner circle 0.25 vw right and down
+  */
+  background-color: white;
+  transform: translate(-0.05vw, -0.05vw) scale(24, 24);
+}
+
+.social-media-button-logo {
+  content: url('./social_media_logos/github_SVGs/GitHub_Invertocat_White.svg');
+
+  position: absolute;
+  transform: scale(0.3, 0.3);
+
+  z-index: 3;
+  transition: 0.25s;
+}
+
+.social-media-button-circle-outer:hover .social-media-button-logo {
+  content: url('./social_media_logos/github_SVGs/GitHub_Invertocat_Black.svg');
+  transform: scale(0.35, 0.35);
 }

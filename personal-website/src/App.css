@@ -96,3 +96,10 @@
     background-position: 100% 0;
   }
 }
+
+circle {
+  position: relative;
+  background-color: #1e88e5;
+  width: 15vw;
+  height: 15vw;
+}

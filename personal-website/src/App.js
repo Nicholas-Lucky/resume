@@ -1,26 +1,4 @@
-import logo from './logo.svg';
 import './App.css';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
 
 function App() {
   return (
@@ -28,17 +6,23 @@ function App() {
       <h1>Nicholas Lucky</h1>
       <h4>Computer Science Student | Developer | AI Enthusiast | Problem Solver</h4>
 
+      <div className="circle"></div>
+
+      <div><hr/></div>
+
       {/* About Me Section */}
       <h2>About Me</h2>
       <p>Hi, I am Nicholas Lucky, a Computer Science student at the University of Florida with a strong interest in software development, web technologies, artificial intelligence and problem-solving.</p>
       <p>I enjoy learning how technology works and using programming to create useful applications that solve real-world problems. As I continue my studies, I am building my skills through personal projects, coursework, and independent learning.</p>
       <p>My goal is to become a skilled software engineer who leverages artificial intelligence and modern technologies to build innovative products that make people's lives easier while continuously learning and adapting to new advancements in the field.</p>
 
+      <div><hr/></div>
+
       {/* Projects Section */}
       <h2>Projects</h2>
 
       <h3>Personal Portfolio Website</h3>
-      <a href="https://github.com/Nicholas-Lucky/Nicholas-Lucky" className="project-link">github.com/Nicholas-Lucky/Nicholas-Lucky</a>
+      <a href="https://github.com/Nicholas-Lucky/resume" className="project-link">github.com/Nicholas-Lucky/resume</a>
       <p>Designed and developed a personal portfolio website to showcase my projects, technical skills, educational background, and interests.</p>
       <p>Through this project, I learned:</p>
       <ul>
@@ -107,6 +91,8 @@ function App() {
       </ul>
       <p>Building this project introduced me to VBA, Visual Basic, macros, and macro-related concepts such as ranges, data types, and functions.</p>
 
+      <div><hr/></div>
+
       {/* Education Section */}
       <h2>Education</h2>
       <h3>University of Florida</h3>
@@ -115,6 +101,8 @@ function App() {
       <p><i>Founded in 1853, the University of Florida is one of the nation's leading public research universities and is consistently ranked among the top public institutions in the United States. Its Computer Science program is recognized for its rigorous curriculum, innovative research opportunities, and strong preparation for careers in software engineering, artificial intelligence, cybersecurity, and other technology fields.</i></p>
       <p>Studying Computer Science at the University of Florida provides me with a strong foundation in software development, algorithms, data structures, and emerging technologies. Through rigorous coursework and hands-on projects, I am developing the technical and problem-solving skills necessary to succeed in the rapidly evolving technology industry.</p>
       <p>My time at UF is helping me grow not only as a programmer but also as a lifelong learner, preparing me to contribute to innovative projects and make a meaningful impact in the field of technology.</p>
+
+      <div><hr/></div>
 
       {/* Skills Section */}
       <h2>Skills</h2>
@@ -164,6 +152,8 @@ function App() {
         <li>Command Prompt</li>
         <li>Git Bash</li>
       </ul>
+
+      <div><hr/></div>
 
       {/* A Little More About Me Section */}
       <h2>A Little More About Me</h2>

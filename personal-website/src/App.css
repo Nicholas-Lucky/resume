@@ -102,6 +102,14 @@
   }
 }
 
+.row-of-social-media-buttons {
+  display: flex;
+}
+
+.social-media-button-separator {
+  width: 0.75vw;
+}
+
 .social-media-button-circle-outer {
   position: relative;
   background-color: black;
@@ -110,7 +118,6 @@
   height: var(--social-media-button-circle-outer);
 
   border-radius: var(--social-media-button-circle-outer);
-
   transition: 0.25s;
 
   display: flex;
@@ -127,12 +134,10 @@
 
 .social-media-button-circle-inner {
   position: relative;
-  /* background-color: white; */
   background-color: transparent;
 
   width: var(--social-media-button-circle-inner);
   height: var(--social-media-button-circle-inner);
-
   border-radius: var(--social-media-button-circle-outer);
 
   transition: 0.25s;
@@ -141,28 +146,33 @@
 }
 
 .social-media-button-circle-outer:hover .social-media-button-circle-inner {
-  /*
-  1.1 * 2.5 = 2.75 vw
-  offseted 2.75 - 2.5 = 0.25 vw
-
-  inner circle remains anchored to the top left maybe
-  move inner circle 0.25 vw right and down
-  */
   background-color: white;
   transform: translate(-0.05vw, -0.05vw) scale(24, 24);
 }
 
 .social-media-button-logo {
-  content: url('./social_media_logos/github_SVGs/GitHub_Invertocat_White.svg');
-
   position: absolute;
-  transform: scale(0.3, 0.3);
 
   z-index: 3;
   transition: 0.25s;
 }
 
-.social-media-button-circle-outer:hover .social-media-button-logo {
+#github_button {
+  content: url('./social_media_logos/github_SVGs/GitHub_Invertocat_White.svg');
+  transform: scale(0.3, 0.3);
+}
+
+.social-media-button-circle-outer:hover #github_button{
   content: url('./social_media_logos/github_SVGs/GitHub_Invertocat_Black.svg');
   transform: scale(0.35, 0.35);
+}
+
+#linkedin_button {
+  content: url('./social_media_logos/linkedin_PNGs/linkedin-logo-white.svg');
+  transform: scale(0.033, 0.033);
+}
+
+.social-media-button-circle-outer:hover #linkedin_button {
+  content: url('./social_media_logos/linkedin_PNGs/linkedin-logo-black.svg');
+  transform: scale(0.037, 0.037);
 }

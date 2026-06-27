@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.b7fd192f.css",
-    "main.js": "/resume/static/js/main.86058d1d.js",
+    "main.css": "/resume/static/css/main.15af0351.css",
+    "main.js": "/resume/static/js/main.33822332.js",
     "static/js/453.855ab442.chunk.js": "/resume/static/js/453.855ab442.chunk.js",
+    "static/media/nicholas_lucky.png": "/resume/static/media/nicholas_lucky.946a024495c807f9fdd0.png",
     "static/media/GitHub_Invertocat_Black.svg": "/resume/static/media/GitHub_Invertocat_Black.bddd116c27bf033c2efd.svg",
     "static/media/GitHub_Invertocat_White.svg": "/resume/static/media/GitHub_Invertocat_White.af449656122efd92a746.svg",
     "static/media/linkedin-logo-black.svg": "/resume/static/media/linkedin-logo-black.7dd1a05e487e688266d9.svg",
     "static/media/linkedin-logo-white.svg": "/resume/static/media/linkedin-logo-white.f779b8e3001ccbdd39fa.svg",
     "index.html": "/resume/index.html",
-    "main.b7fd192f.css.map": "/resume/static/css/main.b7fd192f.css.map",
-    "main.86058d1d.js.map": "/resume/static/js/main.86058d1d.js.map",
+    "main.15af0351.css.map": "/resume/static/css/main.15af0351.css.map",
+    "main.33822332.js.map": "/resume/static/js/main.33822332.js.map",
     "453.855ab442.chunk.js.map": "/resume/static/js/453.855ab442.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7fd192f.css",
-    "static/js/main.86058d1d.js"
+    "static/css/main.15af0351.css",
+    "static/js/main.33822332.js"
   ]
 }

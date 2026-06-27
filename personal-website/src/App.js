@@ -1,11 +1,12 @@
 import './App.css';
+import nicholas_lucky from "./nicholas_lucky.png"
 
 function App() {
   return (
     <div className="Screen">
       <h1>Nicholas Lucky</h1>
       <h4>Computer Science Student | Developer | AI Enthusiast | Problem Solver</h4>
-      
+
       {/* Social Media Buttons */}
       <div className="row-of-social-media-buttons">
         <a href="https://github.com/Nicholas-Lucky" target="_blank">
@@ -28,6 +29,8 @@ function App() {
           </div>
         </a>
       </div>
+
+      <img src={nicholas_lucky} id="nicholas_lucky_image"/>
 
       <div><hr/></div>
 
